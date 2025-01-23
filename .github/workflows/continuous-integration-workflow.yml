@@ -10,7 +10,7 @@ on:
 jobs:
   tests:
     name: Tests
-    runs-on: macos-latest
+    runs-on: XC16.1
     steps:
       - name: Checkout
         uses: actions/checkout@v2
